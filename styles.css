@@ -1,0 +1,72 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.reset-container {
+    background: white;
+    padding: 2em;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.reset-title {
+    font-size: 24px;
+    margin-bottom: 0.5em;
+}
+
+.reset-subtitle {
+    color: #777;
+    margin-bottom: 1em;
+}
+
+.input-group {
+    margin-bottom: 1em;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 0.3em;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 0.8em;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.btn {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 1em;
+    border-radius: 4px;
+    width: 100%;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #45a049;
+}
+
+.login-prompt {
+    text-align: center;
+    margin-top: 1em;
+}
+
+.login-prompt a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.login-prompt a:hover {
+    text-decoration: underline;
+}
